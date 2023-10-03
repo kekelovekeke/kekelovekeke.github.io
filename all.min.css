@@ -974,12 +974,14 @@ body,button {
 .page-50 .img1 {
 	position:absolute;
 	right:0;
-	top:0
+	top:0;
+	z-index: -1;
 }
 .page-50 .img2 {
 	position:absolute;
 	left:1em;
-	bottom:1em
+	bottom:1em;
+	z-index: -1;
 }
 .page-50 p {
 	position:absolute;
